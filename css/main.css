@@ -528,7 +528,9 @@ form,
     left: 0;
     right: 0;
     bottom: 0;
-    background: #fffaf4;
+    background-image: url(/images/rosegold2.jpg);
+    background-position: center;
+/*    background: #ffffff;*/
     z-index: 800;
     height: 100%;
     width: 100%;
@@ -546,8 +548,8 @@ form,
 }
 
 .line-scale-pulse-out > div {
-/*    background-color: #d4af37;*/
-    background-image: url(/images/goldmet2.jpg);
+    background-color: #FFFFFF;
+/*    background-image: url(/images/goldmet2.jpg);*/
     width: 4px;
     height: 35px;
     border-radius: 2px;
