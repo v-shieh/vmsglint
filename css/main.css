@@ -2502,15 +2502,18 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-    background: #FFFFFF;
-    padding: 0 0 15rem 0;
-    min-height: 800px;
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("/images/leaf1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
     position: relative;
 }
 
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
-    background: #111111;
+/*    background: #111111;*/
 }
 
 .works-content {
