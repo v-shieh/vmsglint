@@ -2205,13 +2205,18 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
-    color: #010507;
+/*    background-image: url("/images/sf1.jpeg");*/
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("/images/sf1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
     position: relative;
 }
 
 .s-about .section-header.has-bottom-sep::before {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .about-desc {
@@ -2737,8 +2742,13 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-color: #e6e6e6;
-    color: #757575;
+/*    background-color: #e6e6e6;*/
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("/images/leaf1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
     position: relative;
 }
 
@@ -2755,15 +2765,34 @@ html.no-csstransitions .home-content__main {
 
 .clients__slide {
     display: block;
-    opacity: .55;
-    padding: 1.5rem 2.8rem;
+    opacity: 1;
+/*    padding: 1.5rem 1.8rem;*/
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
+    
 }
 
-.clients__slide:hover, .clients__slide:focus {
-    opacity: 1;
+.clients__slide:hover {
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3));
 }
+
+.project-text {
+position:relative;
+bottom:100px;
+left:0px;
+opacity: 0;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+/*.project-text:hover {
+/*    visibility:visible;*/
+    /*opacity: 1.0;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}*/
 
 
 /* ------------------------------------------------------------------- 
